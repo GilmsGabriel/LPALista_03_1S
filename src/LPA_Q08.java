@@ -6,7 +6,7 @@ public class LPA_Q08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] vetor = new int[10];
-        System.out.println("Apontador de números primos!");
+        System.out.println("Apontador de números primos dentro de um vetor!");
         for (int i = 0; i < vetor.length; i++) {
             System.out.printf("\nDigite o valor n° %d: ", i+1);
             vetor[i] = input.nextInt();
@@ -24,5 +24,6 @@ public class LPA_Q08 {
                 System.out.printf("Valor primo: %d na posição [%d] \n", vetor[i], i+1);
             }
         }
+
     }
 }
